@@ -1,0 +1,41 @@
+{
+  "name": "Buggin'",
+  "created_by": "iH0DL",
+  "external_url": "octocore.eth/images/insomniac.gif",
+  "description": "Acrylic and spraypaint on canvas, mixed with augmented reality. For an example of AR, check out: https://twitter.com/ih0dl/status/1507153930962227211?s=21 Purchase includes free shipping of physical work, if collector want's it.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Augmented",
+      "value": "Reality"
+    },
+    {
+      "trait_type": "Media",
+      "value": "Acrylic/Spraypaint on Canvas"
+    },
+    {
+      "trait_type": "Digitally",
+      "value": "Trashed"
+    },
+    {
+      "trait_type": "Canvas Size",
+      "value": "12x12"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "SUPPLY",
+      "value": "1",
+      "max_value": "1"
+    }
+  ],
+  "image_details": {
+    "format": "PNG",
+    "width": 2048,
+    "height": 2048
+  },
+  "image": "ipfs://QmSZwEEWpwdqtSpqYoCAykhtCTZDdeZPJ7hYj3bWsKhuhK",
+  "image_url": "ipfs://QmSZwEEWpwdqtSpqYoCAykhtCTZDdeZPJ7hYj3bWsKhuhK"
+}

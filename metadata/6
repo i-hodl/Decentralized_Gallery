@@ -1,0 +1,41 @@
+{
+  "name": "The Blue",
+  "created_by": "iH0DL",
+  "external_url": "https://octocore.eth.limo",
+  "description": "This token features the Octocore Metamorphosis trait. Metamorphosis allows for the image to change states until it is sold, base metamorphosis will cause the metadata to be frozen forever. The current state will be reflected in the properties below. Previous hashes will be included to see previous versions.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Metamorphosis Type",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Supply",
+      "display_type": "number",
+      "value": "1",
+      "max_value": "1"
+    },
+    {
+      "trait_type": "Metamorphasis State",
+      "display_type": "number",
+      "value": "3",
+      "max_value": "9"
+    },
+    {
+      "trait_type": "Media",
+      "value": "Animated Collage 2048 x 3070 GIF"
+    },
+    {
+      "trait_type": "State Hash",
+      "value": "bafybeih52sceltotyvxr6pnrswacidx7727hsylx7ma2hkdrjushjtoj2y"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    }
+  ],
+  "image": "ipfs://bafybeih52sceltotyvxr6pnrswacidx7727hsylx7ma2hkdrjushjtoj2y/TheBLUE.gif"
+}

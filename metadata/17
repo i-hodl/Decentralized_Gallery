@@ -1,0 +1,36 @@
+{
+  "name": "Once in a Blue Moon",
+  "created_by": "iH0DL",
+  "external_url": "https://octocore.eth.limo/images/Bluemoon.jpg",
+  "description": "1 of 1 original digital work by iH0DL, 2022.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Once",
+      "value": "Or Twice"
+    },
+    {
+      "trait_type": "Media",
+      "value": "4320x5400 JPEG"
+    },
+    {
+      "trait_type": "Digitally",
+      "value": "Trashed"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "SUPPLY",
+      "value": "1",
+      "max_value": "1"
+    }
+  ],
+  "image": "ipfs://bafybeialatgtuigb2azsmx4plpbbd5zyfh67pmxz6rjz2tcnsverkb4uwy",
+  "image_url": "ipfs://bafybeialatgtuigb2azsmx4plpbbd5zyfh67pmxz6rjz2tcnsverkb4uwy"
+}

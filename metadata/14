@@ -1,0 +1,47 @@
+{
+  "name": "POKING BEAR-eL",
+  "created_by": "iH0DL",
+  "external_url": "octocore.eth/images/",
+  "description": "So…. Did we just decide to fork Ethereum’s approach to gas to fill our vehicles too? Inspired by the upcoming merger of Gas Giants, $ethereum / $unleaded",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Barrel of",
+      "value": "Oil, Obviously MF"
+    },
+    {
+      "trait_type": "Created on",
+      "value": "8 March 2022"
+    },
+    {
+      "trait_type": "Custom Brush",
+      "value": "Touch Me"
+    },
+    {
+      "trait_type": "Brush Pack",
+      "value": "iH0DL 2022"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "SUPPLY",
+      "value": "1",
+      "max_value": "1"
+    }
+  ],
+  "image_details": {
+    "bytes": 10233797,
+    "format": "GIF",
+    "sha256": "53c117a990caba349e2f21be0fcbcdcceb04c65d89fb813dbab15135c596d48d",
+    "width": 2048,
+    "height": 2048
+  },
+  "image": "ipfs://bafybeigz2esycjxbi3fooe4mrp6ms7pevfjvs6g3jatv6xuvomehnz37wu",
+  "image_url": "ipfs://bafybeigz2esycjxbi3fooe4mrp6ms7pevfjvs6g3jatv6xuvomehnz37wu"
+}

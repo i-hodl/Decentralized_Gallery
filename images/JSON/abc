@@ -1,0 +1,31 @@
+{
+  "name" : "A Pocket Full of Sunshine",
+  "created_by" : "iH0DL",
+  "external_url" : "octocore.eth.limo",
+  "description" : "will melt yur face",
+  "attributes" : [
+    {
+      "trait_type" : "Artist",
+      "value" : "iH0DL"
+    },
+    {
+      "trait_type" : "Artist",
+      "value" : "iH0DL"
+    },
+    {
+      "trait_type" : "Editions",
+      "display_type" : "number",
+      "value" : "1",
+      "max_value" : "1"
+    },
+    {
+      "trait_type" : "Media",
+      "value" : "6144 x 6144 PNG"
+    },
+    {
+      "trait_type" : "#",
+      "value" : "TRASHART"
+    }
+  ],
+  "image" : "https://octocore.eth.limo/images/10a.png"
+}

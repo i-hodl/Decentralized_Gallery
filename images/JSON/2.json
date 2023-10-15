@@ -1,0 +1,28 @@
+{
+  "name": "AI Cried",
+  "created_by": "iH0DL",
+  "external_url": "octocore.art",
+  "description": "The Day the humans died.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Editions",
+      "display_type": "number",
+      "value": "1",
+      "max_value": "1"
+    },
+    {
+      "trait_type": "Media",
+      "value": "2048 x 2048 Animated GIF"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    }
+  ],
+  "image": "ipfs/bafybeigujhmofxllyb5uop2ixhz6telclv7td6v6m7na5qak53jgepkk3y",
+  "animation_url": "ipfs://bafybeigujhmofxllyb5uop2ixhz6telclv7td6v6m7na5qak53jgepkk3y"
+}

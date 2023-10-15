@@ -1,0 +1,32 @@
+{
+  "name": "Heavy is the Bag",
+  "created_by": "iH0DL",
+  "external_url": "octocore.eth.limo",
+  "description": "that wears the crown.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    },
+    {
+      "trait_type": "Editions",
+      "display_type": "number",
+      "value": "1",
+      "max_value": "1"
+    },
+    {
+      "trait_type": "Media",
+      "value": "2048x2048 GIF"
+    },
+    {
+      "trait_type": "#",
+      "value": "TRASHART"
+    }
+  ],
+  "image": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC",
+  "animation_url": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC"
+}

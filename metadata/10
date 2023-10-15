@@ -1,0 +1,25 @@
+{
+  "name": "ℕ𝕖𝕠𝕟 ℕ𝕚𝕘𝕙𝕥𝕞𝕒𝕣𝕖",
+  "description": "I see it in my dreams.",
+  "image": "ipfs://bafybeiffn2uelriccj745ggyffl7gh7hyyqndcictzcxzyz63utw35emcm",
+  "animation_url": "ipfs://bafybeiffn2uelriccj745ggyffl7gh7hyyqndcictzcxzyz63utw35emcm",
+  "Artist": "ih0dl",
+  "attributes": [
+    {
+      "trait_type": "supply",
+      "value": "1 of 1"
+    },
+    {
+      "trait_type": "created",
+      "value": "12 August 2023"
+    },
+    {
+      "trait_type": "dimensions",
+      "value": "2048x2048"
+    },
+    {
+      "trait_type": "media",
+      "value": "GIF sRGB IEC61966-2.1"
+    }
+  ]
+}

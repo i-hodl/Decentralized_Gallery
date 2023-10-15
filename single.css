@@ -1,0 +1,196 @@
+/* Base styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #000;
+    font-family: 'Cousine', monospace;
+    color: #00FF00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+  }
+  
+  /* Matrix effect */
+  #matrix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  #matrix span {
+    opacity: 0;
+    color: #00FF00;
+    font-size: 1.5em;
+    animation: matrixFall infinite linear;
+    display:inline-block;
+    margin-left: 1em;
+  }
+  
+  @keyframes matrixFall {
+    0% { opacity: 0; transform: translateY(-100vh); }
+    5% { opacity: 0.5; }
+    100% { opacity: 0.1; transform: translateY(100vh); }
+  }
+  
+  /* Single NFT view */
+  .single-nft {
+    z-index: 1;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  /* NFT image */
+  #nft-img {
+    max-width: 80vw;
+    max-height: 80vh;
+    border: 2px solid #00FF00;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+  
+  /* NFT title */
+  #nft-title {
+    font-size: 2em;
+    text-align: center;
+    margin: 0.5em 0;
+    border:#00ff00 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* NFT description */
+  #nft-description {
+    font-size: 1em;
+    text-align: center;
+    margin: 0.5em 0;
+    max-width: 100%;
+    border: #00FF00 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  /* NFT traits */
+  .trait-box {
+    display: inline-block; /* Changed from inline-flexbox */
+    flex-direction: column;
+    border-radius: 1px;
+    margin: 5px;
+    background-color: #000000;
+    padding: 3px; /* Reduced padding */
+    font-size: 0.7em; /* Reduced font size */
+    width: auto; /* Auto width */
+    height: auto; /* Auto height */
+  }
+  
+  .trait-key {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.6em; /* Reduced font size */
+    color: #55b302;
+  }
+  
+  .trait-value {
+    margin-top: 2px; /* Reduced margin */
+    font-size: 0.6em; /* Reduced font size */
+    color: #00ff22;
+  }
+  .trait-box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+  
+  .trait-key, .trait-value {
+    margin: 0.2em 0;
+  }
+  /* Button Styles for Rarible, Manifold, and OpenSea */
+.nft-links a {
+    margin-top: 10;
+    padding: 4%;
+    background-color: #00000067;
+    border: 1px solid #000dff;
+    color: #000dff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px;
+  }
+  
+  .nft-links a:hover {
+    background-color: #007bff;
+    color: #000000;
+  }
+  
+  /* Responsiveness */
+  @media only screen and (max-width: 600px) {
+    #nft-img {
+      max-width: 95%;
+    }
+    #nft-description {
+      font-size: 0.8em;
+      max-width: 95%;
+    }
+    #nft-title {
+      font-size: 1.5em;
+    }
+  }
+
+.octocore-glow {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de, 0 0 35px #ff00de;
+  }
+  /* Section Boxes */
+.section-box {
+    background-color: #00000061;  /* Adjust as needed */
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #00FF00;  /* Adjust as needed */
+    border-radius: 5px;  /* Adjust as needed */
+    width: 100%;
+  }
+  
+  /* H2 styling */
+  h2 {
+    border-bottom: 2px solid #00FF00; /* This will add a line below the H2 */
+    text-align: left; /* Aligns the text to the left */
+    padding-bottom: 0.5em;  /* Adds a little padding below the text */
+    margin-bottom: 1em;  /* Adds margin below the border line */
+  }
+/* Wrapper for centering traits and links */
+#nft-traits-wrapper,
+#nft-links-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Dope AF animation for traits */
+.trait-box:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
+}
+
+/* Dope AF animation for links */
+.nft-links a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
+}

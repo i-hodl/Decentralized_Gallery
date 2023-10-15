@@ -1,0 +1,28 @@
+{
+  "name": "STILL ON YOUR HANDS",
+  "created_by": "iH0DL",
+  "external_url": "https://h0dl.xyz",
+  "description": "A one of one original digital work by iH0DL, 2022.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Media",
+      "value": "4000 × 3000 PNG"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Supply",
+      "value": "1",
+      "max_value": "1"
+    }
+  ],
+  "image": "ipfs://QmSTEB7cCLPmoSD254ZmnFE72fUCtjRwZmANQiKaQxBCCL",
+  "image_url": "ipfs://QmSTEB7cCLPmoSD254ZmnFE72fUCtjRwZmANQiKaQxBCCL"
+}

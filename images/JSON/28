@@ -1,0 +1,49 @@
+{
+  "name": "Fancy Fucking Art with a Fancy Fucking Frame",
+  "created_by": "iH0DL",
+  "external_url": "https://h0dl.xyz",
+  "description": "I'm so fancy, you already know.",
+  "attributes": [
+    {
+      "trait_type": "Artist",
+      "value": "iH0DL"
+    },
+    {
+      "trait_type": "Media",
+      "value": "3300 × 2250 PNG"
+    },
+    {
+      "trait_type": "Unlockable Media",
+      "value": "4000 × 3000 PNG"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
+    },
+    {
+      "trait_type": "Color Depth",
+      "value": "16 bit"
+    },
+    {
+      "trait_type": "Mini-Series",
+      "value": "FFA"
+    },
+    {
+      "trait_type": "Minted",
+      "value": "4 November, 2023"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Supply",
+      "value": "1",
+      "max_value": "1"
+    }
+  ],
+  "image_details": {
+    "format": "PNG",
+    "width": 2250,
+    "height": 3300
+  },
+  "image": "ipfs://QmVu4n7eXxFNCugSrH6WyMcMjGkKpyRzRPhrQocjrUc3Bg",
+  "image_url": "ipfs://QmVu4n7eXxFNCugSrH6WyMcMjGkKpyRzRPhrQocjrUc3Bg"
+}
