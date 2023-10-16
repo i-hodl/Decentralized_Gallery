@@ -1,2 +1,3 @@
 # Ignore api.json
 api.json
+.DS_Store

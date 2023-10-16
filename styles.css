@@ -53,7 +53,6 @@ h1 {
 .nft h2 {
   margin-top: auto;
   text-align: center;
-  padding: 10px 0;
   background-color: rgba(0, 0, 0, 0.7);
   white-space: nowrap;
   overflow: hidden;
@@ -71,7 +70,7 @@ h1 {
     align-items: center;
   }
   .nft {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
   }
 }
