@@ -50,10 +50,6 @@ h1 {
   border: 1px solid #00fa15;  
 }
 
-.nft img:hover {
-  /* JS logic will go here to autoplay GIFs on hover */
-}
-
 .nft h2 {
   margin-top: auto;
   text-align: center;
@@ -149,4 +145,13 @@ h1 {
   100% {
     opacity: 1;
   }
+}
+img.loading {
+  opacity: 1; /* Make it visible */
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+img.loaded {
+  opacity: 1; /* Make it visible */
 }
