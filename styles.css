@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 /* Add a background color and some padding around the whole page */
 body {
   background-color: #121212;  
-  color: #00fa15;
+  color: #0400fa;
   font-family: 'Courier New', monospace;  
   padding: 20px;
 }
@@ -35,8 +35,8 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 200px;
-  border: 1px solid #00fa15;  
+  width: 300px;
+  border: 1px solid #0400fa;  
   border-radius: 5px;
   overflow: hidden;
   cursor: pointer;
@@ -45,9 +45,9 @@ h1 {
 .nft img {
   object-fit: contain;
   object-position: center;
-  height: 200px;
+  height: 300px;
   width: 100%;
-  border: 1px solid #00fa15;  
+  border: 2px solid #0400fa;  
 }
 
 .nft h2 {
@@ -57,7 +57,8 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 14px;  
+  font-size: x-large;  
+  padding: 5px;
 }
 
 /* Responsiveness */

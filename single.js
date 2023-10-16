@@ -110,7 +110,7 @@ async function initialize() {
 
 window.onload = initialize;
 
-let chars = "⟠Ξ0OCTOCORE";
+let chars = "THΞ8thCYPHΞR⦿∙☒▪︎▫︎◻︎◼︎◘◆◇❖▶︎▷‣▸▹►▴▿▾▽▼◁◀︎▻▵▲△☞☛➢➣➤☆★✧✦✥✤✣✢✯✩✪✫✬✭❦❡❑❒❐✕✖︎✗✘﹅﹆❍❏✔︎✓❂⌘⎋⏎↩︎⏏︎⇥⇤⇪⇧⌤⌥␣⌃⌄⌅⌆⌦⌧⌫⇱↖︎↸⇲↘︎⇞⇟↑⇡↓⇣←⇠→⇢⚙︎⌽⇭⌀⌽⌁⌂⌐⌑⌒⌓⌔⌕⌖⌗⌙⌨︎⎄⎅⎆⎇⎈⎉⎊⎌⌚︎⌛︎⎗⎘⎙⎚⎀⎁⎂⎃⌇⌈⌉⌊";
 const matrix = document.getElementById('matrix');
 const columns = window.innerWidth / 55;
 
@@ -119,7 +119,7 @@ function generateSpan(index) {
     span.textContent = chars[Math.floor(Math.random() * chars.length)];
 
     if (index % 20 === 0) {
-        span.textContent = 'OCTOCORE'[Math.floor(Math.random() * 8)];
+        span.textContent = ''[Math.floor(Math.random() * 8)];
         span.classList.add('octocore-glow');
     }
 
