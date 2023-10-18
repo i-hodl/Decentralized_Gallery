@@ -13,9 +13,9 @@ function convertIPFSToHTTP(ipfsUrl) {
   return ipfsUrl.replace(/^ipfs:\/\/(ipfs\/)?/, "https://ipfs.io/ipfs/");
 }
 
-// Function to animate the gallery title
 async function animateTitle() {
   const title = document.getElementById('gallery-title');
+  title.innerHTML = Array.from("Nonfungible Paintings").map(c => `<span>${c}</span>`).join("");  // <-- Change the title here
   title.classList.remove('hidden');
   title.classList.add('pulse');
   Array.from(title.children).forEach((span, index) => {
@@ -24,6 +24,7 @@ async function animateTitle() {
   await new Promise(resolve => setTimeout(resolve, 5000));
   title.classList.add('hidden');
 }
+
 
 // Fetch all items in the collection with pagination
 async function fetchAllItemsInCollection(limit = 10) {
@@ -144,12 +145,6 @@ async function fetchConfigurations() {
     // Update headers
     headers['Authorization'] = `Bearer ${RARIBLE_API_KEY}`;
     headers['X-API-KEY'] = RARIBLE_API_KEY;
-
-    // Wait for the animation to complete
-    await animateTitle();
-
-    // Add some delay to let the title settle down
-    await new Promise(resolve => setTimeout(resolve, 500)); // 1/2 seconds
 
     // Then display the NFTs
     await displayAllNFTs(10); // Start with 10 items for quicker load

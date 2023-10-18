@@ -1,15 +1,15 @@
+
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
-  padding: 0;
+  padding: 1em;
 }
 
 /* Add a background color and some padding around the whole page */
 body {
   background-color: #121212;  
-  color: #00fa15;
+  color: #FF001C;
   font-family: 'Courier New', monospace;  
-  padding: 20px;
 }
 
 /* Add some typographic styles */
@@ -28,36 +28,37 @@ h1 {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  padding: 50px;
 }
 
 /* Individual NFT styles */
 .nft {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 200px;
-  border: 1px solid #00fa15;  
+  width: 100%;
+  max-width:max-content;
+  border: 2px solid #FF001C;  
   border-radius: 5px;
-  overflow: hidden;
   cursor: pointer;
 }
 
 .nft img {
   object-fit: contain;
   object-position: center;
-  height: 200px;
+  height: 50vh;
   width: 100%;
-  border: 1px solid #00fa15;  
+  border-bottom: #fa0000 2px solid; 
+
 }
 
 .nft h2 {
   margin-top: auto;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 14px;  
+  font-size: x-large;  
+  padding: 1em;
 }
 
 /* Responsiveness */
@@ -74,83 +75,55 @@ h1 {
     margin-bottom: 20px;
   }
 }
-#gallery-title span {
-  opacity: 0;
-  position: relative;
-  animation: matrixDrop 2s ease-in-out infinite, fadeIn 1s ease-in-out both;
-  animation-delay: calc(0.2s * var(--char-index));
-}
 
-@keyframes matrixDrop {
-  0% {
-      top: -100px;
-  }
-  100% {
-      top: 0px;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
-
-.hidden {
-  display: none;
-}
-#gallery-title {
-  font-size: 10vw;
-  text-align: center;
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: #252525;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
 
-/* Media Query for smaller screens */
-@media screen and (max-width: 600px) {
-  #gallery-title {
-      font-size: 8vw;
-  }
-}
-#gallery-title.pulse {
-  animation: pulse 5s ease-out both;
+/* Footer content centered */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-@keyframes matrix {
-  0%, 100% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.1;
-  }
-  20%, 90% {
-    opacity: 1;
-  }
+/* Add some padding to footer links */
+.footer-links {
+  margin-left: 20px;
 }
 
-@keyframes pulse {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-img.loading {
-  opacity: 1; /* Make it visible */
-  transition: opacity 0.3s ease-in-out;
+/* Footer Icons */
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
 
+.footer-icon:hover {
+  opacity: 0.7;
+}
 
-img.loaded {
-  opacity: 1; /* Make it visible */
+.icon { display: flex;
+
+}#title-container {
+  display: flex;
+  align-items: center;
+}
+
+#nfp-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 10vw;
+}
+
+#gallery-title {
+ color: red;
 }

@@ -8,7 +8,7 @@ html, body {
   body {
     background-color: #000;
     font-family: 'Cousine', monospace;
-    color: #00FF00;
+    color: #FF001C;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ html, body {
   
   #matrix span {
     opacity: 0;
-    color: #00FF00;
+    color: #FF001C;
     font-size: 1.5em;
     animation: matrixFall infinite linear;
     display:inline-block;
@@ -54,7 +54,7 @@ html, body {
   #nft-img {
     max-width: 80vw;
     max-height: 80vh;
-    border: 2px solid #00FF00;
+    border: 2px solid #FF001C;
     border-radius: 5px;
     margin-top: 25px;
   }
@@ -64,9 +64,10 @@ html, body {
     font-size: 2em;
     text-align: center;
     margin: 0.5em 0;
-    border:#00ff00 2px solid;
+    border:#FF001C 2px solid;
     border-radius: 5px;
     padding: 5px;
+    
   }
   
   /* NFT description */
@@ -75,7 +76,7 @@ html, body {
     text-align: center;
     margin: 0.5em 0;
     max-width: 80vw;
-    border: #00FF00 2px solid;
+    border: #FF001C 2px solid;
     border-radius: 5px;
     padding: 5px;
   }
@@ -97,19 +98,19 @@ html, body {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.6em; /* Reduced font size */
-    color: #55b302;
+    color: #00fffb;
   }
   
   .trait-value {
     margin-top: 2px; /* Reduced margin */
     font-size: 0.6em; /* Reduced font size */
-    color: #00ff22;
+    color: #00fffb;
   }
   .trait-box {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #00FF00;
+    border: 1px solid #FF001C;
     border-radius: 5px;
     padding: 0.5em;
     margin: 0.5em;
@@ -122,9 +123,9 @@ html, body {
 .nft-links a {
     margin-top: 10;
     padding: 4%;
-    background-color: #00000067;
-    border: 1px solid #000dff;
-    color: #15ff0042;
+    background-color: #d20f0f48;
+    border: 1px solid #FF001C;
+    color: #00fffb;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -153,22 +154,20 @@ html, body {
     }
   }
 
-.octocore-glow {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de, 0 0 35px #ff00de;
-  }
+
   /* Section Boxes */
 .section-box {
     background-color: #00000061;  /* Adjust as needed */
     padding: 1em;
     margin: 1em 0;
-    border: 1px solid #00FF00;  /* Adjust as needed */
+    border: 1px solid #FF001C;  /* Adjust as needed */
     border-radius: 5px;  /* Adjust as needed */
     width: 80%;
   }
   
   /* H2 styling */
   h2 {
-    border-bottom: 2px solid #00FF00; /* This will add a line below the H2 */
+    border-bottom: 2px solid #FF001C; /* This will add a line below the H2 */
     text-align: left; /* Aligns the text to the left */
     padding-bottom: 0.5em;  /* Adds a little padding below the text */
     margin-bottom: 1em;  /* Adds margin below the border line */

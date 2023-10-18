@@ -1,0 +1,158 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color and some padding around the whole page */
+body {
+  background-color: #121212;  
+  color: #00fa15;
+  font-family: 'Courier New', monospace;  
+  padding: 20px;
+}
+
+/* Add some typographic styles */
+h1, h2, h3 {
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Style the NFT grid */
+#nft-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual NFT styles */
+.nft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  border: 1px solid #00fa15;  
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nft img {
+  object-fit: contain;
+  object-position: center;
+  height: 300px;
+  width: 100%;
+  border: 1px solid #00fa15;  
+}
+
+.nft h2 {
+  margin-top: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;  
+  padding-bottom: 5px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  #nft-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nft {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+#gallery-title span {
+  opacity: 0;
+  position: relative;
+  animation: matrixDrop 2s ease-in-out infinite, fadeIn 1s ease-in-out both;
+  animation-delay: calc(0.2s * var(--char-index));
+}
+
+@keyframes matrixDrop {
+  0% {
+      top: -100px;
+  }
+  100% {
+      top: 0px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+#gallery-title {
+  font-size: 10vw;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+  #gallery-title {
+      font-size: 8vw;
+  }
+}
+#gallery-title.pulse {
+  animation: pulse 3s ease-out both;
+  animation:forwards;
+}
+
+@keyframes matrix {
+  0%, 100% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20%, 90% {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  10% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+img.loading {
+  opacity: 1; /* Make it visible */
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+img.loaded {
+  opacity: 1; /* Make it visible */
+}
