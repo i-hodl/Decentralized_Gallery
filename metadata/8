@@ -23,5 +23,7 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeifvrceojbz6nveo5a4jnw4fzjbrikbxoiboelbcc2qzoumjmmfc3q"
+  "thumbnail": "ipfs://bafybeidtlqjem6vvlnlviez2wspjxfzhfii35mukgc2qunuxamzb6pmtjm",
+  "full_res_png": "ipfs://bafybeifvrceojbz6nveo5a4jnw4fzjbrikbxoiboelbcc2qzoumjmmfc3q",
+  "image": "ipfs://bafybeier54tnji3h5wbqcop2kwoi65cebozqtocdihnejchgk5cvbfb4uy"
 }

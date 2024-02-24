@@ -1,7 +1,7 @@
 {
   "name": "The First Day of School",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "That feeling. It's not something you ever forget.",
   "attributes": [
     {
@@ -23,5 +23,7 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://QmYRvCFKqMLNny3ZWncT25WMXszisG4zMQf9MKYr4sPxp2"
+  "thumbnail": "ipfs://bafybeihemmybj5jerxk42tmrhbfz6h35wzqvefojpnfyos26ldqunuwppm",
+  "png_image": "ipfs://bafybeif4zfqm6vlrnfezi7ajp6lszktee344g7lsdm3iklgiyussbta3ii",
+  "image": "ipfs://bafybeibeixwesngpgxkyfjhpbbpyrvcqgivqxu22nnpbkyclnll6blaqke"
 }

@@ -1,8 +1,8 @@
 {
-  "name": "'ιηтєяƒυѕє",
+  "name": "COST OF LIVING",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
-  "description": "He picked up trash in his spare time to dump in his neighbor's yard.",
+  "external_url": "https://octocore.eth.limo/",
+  "description": "This description has been crafted by a custom GPT-4 AI, meticulously trained and fine-tuned by iH0DL, a luminary entrenched in the realms of digital art and decentralization. 'Cost of Living' stands as a digital tapestry, woven with the vibrant threads of critique and observation, presenting a tableau of modern existence shadowed by economic disparity. The iconic 'Expensive Soup' can, placed prominently amidst a maelstrom of distorted data and deconstructed landscapes, represents the paradox of basic necessities becoming luxuries in an era where the cost of living surges beyond reach. The ants, a society's workforce, trudge wearily across a pixelated wasteland, symbolizing the unending toil in pursuit of sustenance, often overshadowed by the looming specter of inflation. Above, a bird adorned with the iridescence of hope soars, a stark emblem of the innate desire for freedom from financial shackles. Amidst the fragments of currency and the chaotic fusion of elements, this piece embodies the silent cacophony of a world where the digital and physical economies converge and clash. As a narrative stitched into the fabric of the OctoCore Collection, 'Cost of Living' mirrors the complexity of value in a digital epoch, capturing a collective yearning for equilibrium within a system skewed by the weight of gold and the ethereality of the blockchain. The 'Lost Partition' trait emerges here not only as a characteristic of digital artistry but also as a metaphor for the fragmented dreams of prosperity, while the 'Partitioned' trait starkly delineates the old world from the new, a beacon of potential amidst the ruins of traditional economic bastions.",
   "attributes": [
     {
       "trait_type": "Artist",
@@ -15,13 +15,31 @@
       "max_value": "1"
     },
     {
-      "trait_type": "Media",
-      "value": "PNG"
+      "trait_type": "Dimensions",
+      "value": "1494 × 1080"
     },
     {
-      "trait_type": "#",
-      "value": "TRASHART"
+      "trait_type": "Color Space",
+      "value": "RGB"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "sRGB IEC61966-2.1"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "ιηтєяƒυѕє"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "10 Feb 2024"
+    },
+    {
+      "trait_type": "Bonus Content",
+      "value": "4088 × 2954 Still Version"
     }
   ],
-  "image": "ipfs://QmeCAxjUUhMLtmSv3qjR5pi2MozYZar2Y8bUnesRHQo3Jo"
+  "image": "ipfs://QmbSPnXFpgLBUqkDqho3eGYGV1MZP5GYKBb6ywbjHVecfx",
+  "thumbnail": "ipfs://bafybeie2mfpkbyn743vsek6dgdujkw343yexbsd3lmzyoqe3jsulo2kcfq",
+  "image_url": "ipfs://QmbSPnXFpgLBUqkDqho3eGYGV1MZP5GYKBb6ywbjHVecfx"
 }

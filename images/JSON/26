@@ -1,7 +1,7 @@
 {
   "name": "Mirage",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "Just another thirst trap.",
   "attributes": [
     {
@@ -44,6 +44,7 @@
     "width": 2250,
     "height": 3300
   },
-  "image": "ipfs://QmdS1rtPb35Vc9XuzaxcC6BVsN9twTa6xneZLDWB9Xz4KE",
-  "image_url": "ipfs://QmdS1rtPb35Vc9XuzaxcC6BVsN9twTa6xneZLDWB9Xz4KE"
+  "image": "ipfs://bafybeiaeuekj7i5ma43zxi3nnfj2qfhpt5rxixdlqiduwhntyh7yuuaf2y",
+  "thumbnail": "ipfs://bafkreidfqpemrmn6bsjo3rp6vxydxv6hmjh74ewbepshlleoagn3adneha",
+  "image_url": "ipfs://bafybeiadnkz377cup25mczkwtsamg2yy3dqqzqrkg45oovkqiidjqbmjl4"
 }

@@ -45,7 +45,7 @@ async function displayNFT(asset_contract_address, token_id, imageURL) {
 
     const { meta: { name = '', description = '', attributes = [] } = {} } = nftData;
 
-    const openseaLink = `https://opensea.io/assets/${asset_contract_address}/${token_id}`;
+    const fndLink = `https://foundation.app/collection/octocore/${token_id}`;
     const raribleLink = `https://rarible.com/token/${asset_contract_address}:${token_id}`;
     const manifoldLink = `https://gallery.manifold.xyz/${asset_contract_address}/${token_id}`;
 
@@ -53,7 +53,7 @@ async function displayNFT(asset_contract_address, token_id, imageURL) {
         img: document.getElementById('nft-img'),
         title: document.getElementById('nft-title'),
         description: document.getElementById('nft-description'),
-        opensea: document.getElementById('opensea-link'),
+        fnd: document.getElementById('fnd-link'),
         rarible: document.getElementById('rarible-link'),
         manifold: document.getElementById('manifold-link'),
         traits: document.getElementById('nft-traits')
@@ -66,7 +66,7 @@ async function displayNFT(asset_contract_address, token_id, imageURL) {
     elements.title.classList.add('glitch');
     elements.title.setAttribute("data-text", name);
     elements.description.textContent = '';
-    elements.opensea.href = openseaLink;
+    elements.fnd.href = fndLink;
     elements.rarible.href = raribleLink;
     elements.manifold.href = manifoldLink;
 
@@ -110,7 +110,7 @@ async function initialize() {
 
 window.onload = initialize;
 
-let chars = "THΞ8thCYPHΞR⦿∙☒▪︎▫︎◻︎◼︎◘◆◇❖▶︎▷‣▸▹►▴▿▾▽▼◁◀︎▻▵▲△☞☛➢➣➤☆★✧✦✥✤✣✢✯✩✪✫✬✭❦❡❑❒❐✕✖︎✗✘﹅﹆❍❏✔︎✓❂⌘⎋⏎↩︎⏏︎⇥⇤⇪⇧⌤⌥␣⌃⌄⌅⌆⌦⌧⌫⇱↖︎↸⇲↘︎⇞⇟↑⇡↓⇣←⇠→⇢⚙︎⌽⇭⌀⌽⌁⌂⌐⌑⌒⌓⌔⌕⌖⌗⌙⌨︎⎄⎅⎆⎇⎈⎉⎊⎌⌚︎⌛︎⎗⎘⎙⎚⎀⎁⎂⎃⌇⌈⌉⌊";
+let chars = "OCTOCORE iH0DL 0123456789 ⦿∙☒▪︎▫︎◻︎◼︎◘◆◇❖▶︎▷‣▸▹►▴▿▾▽▼◁◀︎▻▵▲△☞☛➢➣➤☆★✧✦✯✩✪✫✬✭❦❡❑❒❐✕✖︎✗✘﹅﹆❍❏✔︎✓❂⌘⎋⏎↩︎⏏︎⇥⇤⇪⇧⌤⌥␣⌃⌄⌅⌆⌦⌧⌫⇱↖︎↸⇲↘︎⇞⇟↑⇡↓⇣←⇠→⇢⚙︎⌽⇭⌀⌽⌁⌂⌐⌑⌒⌓⌔⌕⌖⌗⌙⌨︎⎄⎅⎆⎇⎈⎉⎊⎌⎗⎘⎙⎚⎀⎁⎂⎃⌇⌈⌉⌊";
 const matrix = document.getElementById('matrix');
 const columns = window.innerWidth / 55;
 

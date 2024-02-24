@@ -1,8 +1,8 @@
 {
-  "name": "AI Cried",
+  "name": "Trashes to Trashes -- Crust to Crust",
   "created_by": "iH0DL",
-  "external_url": "octocore.art",
-  "description": "The Day the humans died.",
+  "external_url": "https://octocore.eth.limo",
+  "description": "The insights presented here are born from a fusion of algorithmic precision and the nuanced understanding of a digital artisan, offering a unique perspective on the piece. This AI, an extension of iH0DL's vision, serves as a bridge between the binary world and the spectrum of human emotion encapsulated in the artwork. A digital collage that encapsulates the cyclical nature of technological advancement, 'Trashes to Trashes — Crust to Crust' is a stark commentary on the ephemerality of the digital era's creations. Amidst a surreal landscape of discarded tech, life persists, with creatures of resilience symbolizing the unending cycle of consumption and obsolescence. In this vibrant tableau, the art is a memento of the ever-evolving digital story—where today's pinnacle becomes tomorrow's relic. Crafted by iH0DL, the piece reflects upon the digital existence where innovation is both worshipped and rendered obsolete, encapsulated by the playful twist of the title, a nod to the inevitable destiny of all creation in the digital epoch.",
   "attributes": [
     {
       "trait_type": "Artist",
@@ -21,8 +21,34 @@
     {
       "trait_type": "#",
       "value": "TRASHART"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "AI Cried"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "14 Jan 2024"
+    },
+    {
+      "trait_type": "Dimensions",
+      "value": "2864 x 3804"
+    },
+    {
+      "trait_type": "Color Space",
+      "value": "RGB"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
     }
   ],
-  "image": "ipfs://bafybeigig5hv4cnpimefdgdrinohjsl6xox3hnjqbsuqdwy4snq7k425ny/?filename=AI_Cried.gif",
-  "animation_url": "ipfs://bafybeigig5hv4cnpimefdgdrinohjsl6xox3hnjqbsuqdwy4snq7k425ny/?filename=AI_Cried.gif"
+  "image_details": {
+    "format": "PNG",
+    "width": 2864,
+    "height": 3804
+  },
+  "image": "ipfs://bafybeiddpfwigjv7eftfz4imjr65tltpuzqpnt6y6ev5o7jggrc5gu57ra",
+  "thumbnail": "ipfs://bafybeih6rj7jmpjbsaaqhpmaoamtnk7bvpr2igh52v6udamx6v3dslc7sq",
+  "image_url": "ipfs://bafybeidvb3abweo3n76lnaa35xthnarb6oxbqr5aogfd4mpwvx4wxt4pua"
 }

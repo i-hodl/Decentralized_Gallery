@@ -1,7 +1,7 @@
 {
   "name": "Slicing Pi",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "You might think it's a piece of cake. Until you actually slice the pi.",
   "attributes": [
     {
@@ -23,6 +23,7 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeigxa7ocqwg4t573lmvxsqoxy32kujchlvpw5jk7argrtavrhmnv5u",
-  "animation_url": "ipfs://bafybeigxa7ocqwg4t573lmvxsqoxy32kujchlvpw5jk7argrtavrhmnv5u"
+  "image": "ipfs://bafybeiedh6mu4egh5q5ysaqptsyzl43ssl5dontrsni6ux3hs74xxb3k24",
+  "thumbnail": "ipfs://bafkreic7m75jubuc3pujhad3i6ulp4jynqo3bxyyf7vyzygy4omge3z2xy",
+  "animation_url": "ipfs://bafybeiedh6mu4egh5q5ysaqptsyzl43ssl5dontrsni6ux3hs74xxb3k24"
 }

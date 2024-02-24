@@ -1,7 +1,7 @@
 {
   "name": "HƆIЯ ΞHT TAΞ",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "Your gluttony shall be forgiven. FΞAST.",
   "attributes": [
     {
@@ -27,5 +27,6 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeifxmoydq5d7uyhje6nmqoxmh52c77s57n2eri66roqqjek3qiecam"
+  "thumbnail": "ipfs://bafybeidrklagde5xt3a2tthnhte2x4agdupdkrjrrnsypivuvxf7b4oilq",
+  "image": "ipfs://bafybeier2elxxmaylsdlthm7glgmfxunb6kczrofrzvorakvrrvuu4rubm"
 }

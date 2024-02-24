@@ -1,7 +1,7 @@
 {
   "name": "inˈkəmpəsS",
   "created_by": "iH0DL",
-  "external_url": "octocore.art",
+  "external_url": "https://octocore.eth.limo",
   "description": "SOME SAY OPPOSITES ATTRACT, OTHERS TEST THE THEORY.",
   "attributes": [
     {
@@ -24,6 +24,7 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeifelexjc5v5ilw57nokagbdxlaafktt75iljypcipgc5snz7p4ycm",
-  "image_url": "ipfs://bafybeifelexjc5v5ilw57nokagbdxlaafktt75iljypcipgc5snz7p4ycm"
+  "image": "ipfs://bafybeif4yry35egaodajc5e755bfjc2e4qgcbhzgfwat53xvoprdfluc3a",
+  "thumbnail": "ipfs://bafybeidcunvdnixskqcfzsiokrzi5r7i36warvalzrljhjwxnuu74oowyi",
+  "image_url": "ipfs://bafybeif4yry35egaodajc5e755bfjc2e4qgcbhzgfwat53xvoprdfluc3a"
 }

@@ -1,7 +1,7 @@
 {
   "name": "STILL ON YOUR HANDS",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "A one of one original digital work by iH0DL, 2022.",
   "attributes": [
     {
@@ -23,6 +23,7 @@
       "max_value": "1"
     }
   ],
-  "image": "ipfs://QmSTEB7cCLPmoSD254ZmnFE72fUCtjRwZmANQiKaQxBCCL",
-  "image_url": "ipfs://QmSTEB7cCLPmoSD254ZmnFE72fUCtjRwZmANQiKaQxBCCL"
+  "image": "ipfs://bafybeiczbaudiylujab6nev4t4kjyizkko3pgyf27qbisqbpxaohhjtpse",
+  "thumbnail": "ipfs://bafybeiekkiqndp6g7qi7m4zr6o5oxfn5a46hlblkk2jld3x62rlkjgsiaq",
+  "image_url": "ipfs://bafybeiexheijh2ya3hmoz5v2yvgmb7uspboawyidv5rolvo7an376aym5e"
 }

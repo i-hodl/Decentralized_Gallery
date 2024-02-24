@@ -1,47 +1,54 @@
 {
-  "name": "POKING BEAR-eL",
+  "name": "HODL Your Tongue and Say Apple",
   "created_by": "iH0DL",
-  "external_url": "octocore.eth/images/",
-  "description": "So…. Did we just decide to fork Ethereum’s approach to gas to fill our vehicles too? Inspired by the upcoming merger of Gas Giants, $ethereum / $unleaded",
+  "external_url": "https://octocore.eth.limo",
+  "description": "The insights presented here are born from a fusion of algorithmic precision and the nuanced understanding of a digital artisan, offering a unique perspective on the piece. This AI, an extension of iH0DL's vision, serves as a bridge between the binary world and the spectrum of human emotion encapsulated in the artwork.  ‘HODL Your Tongue and Say Apple’ is a digital collage that echoes the ethos of decentralization, reflecting a space where control is elusive, and the unexpected is the norm. An alien, central to the piece, lifts a road, symbolizing innovation and a defiance of traditional paths—akin to 'HODLing' in the crypto world. Amidst this digital panorama, a cat oversees the meme-infused chaos, while cookies with faces playfully token the internet's omnipresence. The contribution of Twitter users @B_DWIL, @marcotic12, @Don_keyedjote, @TimothyJVarner, @Ef_ex, @ernestoasch, @WomanNFT, @Tengushee, @AFuckingNobody, @BRRRRcollects, @scizors_eth, and @WGMeets adds a community-driven energy, with each visual note forming a symphony of pixels. The fluid landscapes and recursive digital creation highlight the digital realm’s unpredictable nature. This piece stands as a testament to collective creativity and the emergent beauty of decentralized artistry—a vibrant cacophony that is unplanned, unabashed, and unapologetically bold.The 'Lost Partition' trait embodies a pivotal shift in the artwork's digital essence. It represents a moment where the original data became fragmented, creating a gateway to a new form of artistic expression. This trait is a testament to the unpredictable nature of digital memory – where lost segments lead to unexpected beauty and complexity. Each 'Lost Partition' piece marks a journey from known to unknown, a metamorphosis that celebrates the serendipity of digital evolution. The 'Partitioned' trait marks a significant moment in the OctoCore Collection – the date when an artwork underwent its digital transformation. 'Partitioned' signifies the division of the old and the emergence of the new, encapsulating a moment of creative rebirth and evolution.",
   "attributes": [
     {
       "trait_type": "Artist",
       "value": "iH0DL"
     },
     {
-      "trait_type": "Barrel of",
-      "value": "Oil, Obviously MF"
+      "trait_type": "Editions",
+      "display_type": "number",
+      "value": "1",
+      "max_value": "1"
     },
     {
-      "trait_type": "Created on",
-      "value": "8 March 2022"
-    },
-    {
-      "trait_type": "Custom Brush",
-      "value": "Touch Me"
-    },
-    {
-      "trait_type": "Brush Pack",
-      "value": "iH0DL 2022"
+      "trait_type": "Media",
+      "value": "4000x3000 webp"
     },
     {
       "trait_type": "#",
       "value": "TRASHART"
     },
     {
-      "display_type": "number",
-      "trait_type": "SUPPLY",
-      "value": "1",
-      "max_value": "1"
+      "trait_type": "Lost Partition",
+      "value": "POKING BEAR-eL\n"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "17 Jan 2024"
+    },
+    {
+      "trait_type": "Dimensions",
+      "value": "4000 x 3000"
+    },
+    {
+      "trait_type": "Color Space",
+      "value": "RGB"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
     }
   ],
   "image_details": {
-    "bytes": 10233797,
-    "format": "GIF",
-    "sha256": "53c117a990caba349e2f21be0fcbcdcceb04c65d89fb813dbab15135c596d48d",
-    "width": 2048,
-    "height": 2048
+    "format": "png",
+    "width": 4000,
+    "height": 3000
   },
-  "image": "ipfs://bafybeigz2esycjxbi3fooe4mrp6ms7pevfjvs6g3jatv6xuvomehnz37wu",
-  "image_url": "ipfs://bafybeigz2esycjxbi3fooe4mrp6ms7pevfjvs6g3jatv6xuvomehnz37wu"
+  "image": "ipfs://bafybeifziuo5gh6n6s24ehawv4btdytv2ucwsek3fnsy6dhn3cyu7iqjtm",
+  "thumbnail": "ipfs://bafybeie76idmsf6ix25e7fni44w4o4xue7rmhogf7oqtwtf4rjxwp6tqci",
+  "image_url": "ipfs://bafybeifziuo5gh6n6s24ehawv4btdytv2ucwsek3fnsy6dhn3cyu7iqjtm"
 }

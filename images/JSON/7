@@ -1,7 +1,7 @@
 {
   "name": "ᗰOOᑎᔕET",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "We don't sleep, for the moon tells us when to wake. -insomnia ",
   "attributes": [
     {
@@ -27,5 +27,8 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://QmWeur37eRUDahAH9Gdqa1YJNEZWyGSppGXWDvaZgVZdet"
+  "thumbnail": "ipfs://bafybeihnhx5vioykvbsou3fls4pq3gchvvi7icrqpxyqlnahxypj2luru4",
+  "image": "ipfs://QmWeur37eRUDahAH9Gdqa1YJNEZWyGSppGXWDvaZgVZdet",
+  "animation_url": "ipfs://QmWeur37eRUDahAH9Gdqa1YJNEZWyGSppGXWDvaZgVZdet",
+  "image_url": "ipfs://QmWeur37eRUDahAH9Gdqa1YJNEZWyGSppGXWDvaZgVZdet"
 }

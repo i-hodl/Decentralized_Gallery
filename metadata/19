@@ -1,8 +1,8 @@
 {
-  "name": "Belly of the BEAST",
+  "name": "Redistribution",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
-  "description": "IS MUCH CLOSER THAN YOU THINK. FEED THE BEAST. ",
+  "external_url": "https://octocore.eth.limo/",
+  "description": "This description has been crafted by a custom GPT-4 AI, meticulously trained and fine-tuned by iH0DL, a pioneer at the forefront of digital art and decentralization. ‘Redistribution’ captures the essence of transcending past limitations and the quest for economic balance. Symbolized by the dispersion of pixels from the saltshaker, it reflects the equitable distribution of digital resources. The ethereal figure emerging from the tech tableau represents the shedding of a poverty-ridden past and the embrace of a future replete with potential. With a digital spoon marked '925', the piece alludes to the newfound wealth within the digital landscape. It is a personal and societal commentary, an artistic manifesto by iH0DL, that in the digital age, one's beginnings do not define the entirety of their journey. Wealth, both tangible and intangible, can be redistributed, offering a canvas where each individual has the agency to redefine their destiny.The 'Lost Partition' trait embodies a pivotal shift in the artwork's digital essence. It represents a moment where the original data became fragmented, creating a gateway to a new form of artistic expression. This trait is a testament to the unpredictable nature of digital memory – where lost segments lead to unexpected beauty and complexity. Each 'Lost Partition' piece marks a journey from known to unknown, a metamorphosis that celebrates the serendipity of digital evolution. The 'Partitioned' trait marks a significant moment in the OctoCore Collection – the date when an artwork underwent its digital transformation. 'Partitioned' signifies the division of the old and the emergence of the new, encapsulating a moment of creative rebirth and evolution.",
   "attributes": [
     {
       "trait_type": "Artist",
@@ -15,14 +15,27 @@
       "max_value": "1"
     },
     {
-      "trait_type": "Media",
-      "value": "Animated PNG"
+      "trait_type": "Dimensions",
+      "value": "4000 x 3000"
     },
     {
-      "trait_type": "#",
-      "value": "TRASHART"
+      "trait_type": "Color Space",
+      "value": "RGB"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "Belly of the Beast"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "14 Jan 2024"
     }
   ],
-  "image": "ipfs://QmU8WFnfDecg9rXfqvut94WXUtyTk57nUpvMUZFQWB7AZ2",
-  "animation_url": "ipfs://QmU8WFnfDecg9rXfqvut94WXUtyTk57nUpvMUZFQWB7AZ2"
+  "png_image": "ipfs://bafybeifidpn6aaxwuzbpuxpj4xjlibddiongy5tusjm7bcleagrpbmqzrq",
+  "thumbnail": "ipfs://bafybeibrq5rl7rlngfcs7p63qebwkkf2o4nedmhkj24ygqcjartq2albc4",
+  "image": "ipfs://bafybeieco7zmldioyrmizjrild7tq5wh4i52f7po2dqvpp4xz326toxt5u"
 }

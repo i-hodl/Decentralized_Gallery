@@ -20,12 +20,13 @@
     },
     {
       "trait_type": "Media",
-      "value": "2160 x 2160 PNG"
+      "value": "2160 x 2160 WebP"
     },
     {
       "trait_type": "#",
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeifjkmupun772ftpyanepisbxrrdzuvip37adxq2puxnbkw6vb4yx4"
+  "thumbnail": "ipfs://bafybeiei3s4pj6ksrdudxmkqlma6x3gpqr2byphw7zzkibibmqwh4mnvka",
+  "image": "ipfs://bafybeie2xu62xa72aqwp7rm32c6g4pqg4gvthobx5owbiv6jjz6qfybefy"
 }

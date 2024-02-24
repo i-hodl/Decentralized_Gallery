@@ -1,7 +1,7 @@
 {
   "name": "iH0DL Logo",
   "created_by": "iH0DL",
-  "external_url": "dweb.link/ipfs/QmWX2EDdwdy9fxVXgGuG1UTZnxpUMY7bUN1KgwF8fRgYTE",
+  "external_url": "https://octocore.eth.limo",
   "description": "The iconic Octopus",
   "attributes": [
     {
@@ -23,5 +23,6 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://Qmf76xVhQSsiUfWhQzMQybQXVPr7TbSZbcAM16Bt9RFwH4"
+  "thumbnail": "ipfs://",
+  "image": "ipfs://bafkreig32avkgsqvzjvxu354zjefwk6j3b4iegyoljvmcbqxhghifxjgqy"
 }

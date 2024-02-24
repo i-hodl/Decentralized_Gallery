@@ -8,7 +8,7 @@ html, body {
 body {
   background-color: #000;
   font-family: 'Cousine', monospace;
-  color: #49b9ff;
+  color: #ffffff4c;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,37 +16,30 @@ body {
   min-height: 90vh;
 }
 
-/* Matrix Animation */
+/* Matrix effect */
 #matrix {
+  opacity: 0;
   position: absolute;
-  font-family: 'Cousine', monospace;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color:#000000;
   z-index: -1;
 }
 
-#matrix span {
+/*#matrix span {
   opacity: 0;
-  color: #001EFF;
-  animation-name: matrixFall;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  display: flex;
-  width: calc(100% / var(--num-columns));
-  will-change: transform, opacity;
+  color: #4e08ff;
+  font-size: 1.5em;
+  animation: matrixFall infinite linear;
+  display:inline-block;
+  margin-left: 1em;
 }
 
 @keyframes matrixFall {
-    10% { opacity: 0.5; transform: translateY(-100vh); }
-    5% { opacity: 0.5; }
-    100% { opacity: 0.1; transform: translateY(100vh); }
+  10% { opacity: 0; transform: translateY(-100vh); }
+  30% { opacity: 0.5; }
+  100% { opacity: 0.1; transform: translateY(100vh); }
 }
 
 /* Single NFT view */
@@ -62,19 +55,23 @@ body {
 #nft-img {
   max-width: 80vw;
   max-height: 80vh;
-  border: 2px solid #000dff;
-  border-radius: 5px;
+  border: 5px solid #ffffff4c;
+  border-radius: 15px;
   margin-top: 25px;
+  overflow: hidden;
 }
 
 /* NFT title */
 #nft-title {
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   margin: 0.5em 0;
-  border:#000dff 2px solid;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 15px;
+  padding: 15px;
+  color: #ffffff4c;
+  display: flex;
+  border-bottom: 1px solid #ffffff4c;
+  background-color: rgb(2, 2, 2);
 }
 
 /* NFT description */
@@ -83,59 +80,59 @@ body {
   text-align: left;
   margin: 0.5em 0;
   max-width: 80vw;
-  border: #000dff 1px solid;
-  border-radius: 5px;
-  padding: 1em;
+  border: #ffffff4c 1px solid;
+  border-radius: 1px;
+  padding: 20px;
+  color: #ffffff4c;
 }
 
 /* NFT traits */
-.trait-box {
-  display: inline-block; /* Changed from inline-flexbox */
-  flex-direction: column;
-  border: #000dff solid 1px;
-  border-radius: 5px;
-  margin: 5px;
-  background-color: #000000;
-  padding: 10px;
-  font-size: 0.7em;
-  width: auto;
-  height: auto;
-}
+
 
 .trait-key {
-  font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.6em;
-  color: #5e26f7;
-  padding: 10px;
-  border-bottom: #070f9e solid 1px;
+  font-size: 0.6em; /* Reduced font size */
+  border-bottom: 1px solid #ffffff4c;
+  color: #ffffff4c;
 }
 
 .trait-value {
-  margin-top: 2px;
-  font-size: 0.6em;
-  color: #4bf0ff;
-  padding: 10px;
-  align-self: center;
+  font-weight: bold;
+  margin-top: 2px; /* Reduced margin */
+  font-size: 0.6em; /* Reduced font size */
+  color: #ffffff4c;
+}
+.trait-box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ffffff4c;
+  border-radius: 1px;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
-/* Button Styles for Rarible, Manifold, and OpenSea */
+.trait-key, .trait-value {
+  margin: 0.2em 0;
+}
+/* Button Styles for Rarible, Manifold, and FND */
 .nft-links a {
   margin-top: 10;
   padding: 4%;
   background-color: #00000067;
-  border: 1px solid #000dff;
+  border: 1px solid #4e08ff;
+  color: #ffffff4c;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 4px;
+  border-radius: 1px;
   margin: 5px;
 }
 
 .nft-links a:hover {
-  background-color: #007bff;
+  background-color: #4e08ff;
   color: #000000;
 }
 
@@ -156,31 +153,36 @@ body {
 .octocore-glow {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff00de, 0 0 20px #ff00de, 0 0 25px #ff00de, 0 0 30px #ff00de, 0 0 35px #ff00de;
 }
-
 /* Section Boxes */
 .section-box {
-  background-color: #00000061;
+  background-color: #00000061;  /* Adjust as needed */
   padding: 1em;
   margin: 1em 0;
-  border: 1px solid #000dff;
-  border-radius: 5px;
-  width: 80%;
+  border: 1px solid #ffffff4c;  /* Adjust as needed */
+  border-radius: 15px;  /* Adjust as needed */
+  width: 50vw;
 }
 
 /* H2 styling */
 h2 {
-  border-bottom: 2px solid #070f9e;
-  text-align: left;
-  padding-bottom: 0.5em;
-  margin-bottom: 1em;
+ 
+  text-align: left; /* Aligns the text to the left */
+  padding-bottom: 0.5em;  /* Adds a little padding below the text */
+  margin-bottom: 1em;  /* Adds margin below the border line */
 }
-
 /* Wrapper for centering traits and links */
 #nft-traits-wrapper,
 #nft-links-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+/* Dope AF animation for traits */
+.trait-box:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 255, 0, 0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.19);
 }
 
 /* Dope AF animation for links */

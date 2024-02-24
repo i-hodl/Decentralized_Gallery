@@ -1,7 +1,7 @@
 {
   "name": "You Can't Unplug",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "Even if you wanted to.",
   "attributes": [
     {
@@ -24,12 +24,13 @@
     }
   ],
   "image_details": {
-    "bytes": 26004363,
+    "bytes": 4374986,
     "format": "PNG",
-    "sha256": "265106b07058217e68dfc5adfccdd732373220ef7df315f0c820f094ecac71ce",
+    "sha256": "f41cb858a6f193abf0b17cc64aa02b25a4a7da7421f4df5fb80b5a7ed28b1758",
     "width": 4000,
     "height": 6000
   },
-  "image": "https://arweave.net/vc26HIMPgLSlZsYZXvWLO0bydbZtrrqRsb30oc9iYgY",
-  "image_url": "https://arweave.net/vc26HIMPgLSlZsYZXvWLO0bydbZtrrqRsb30oc9iYgY"
+  "image": "ipfs://bafybeifabx6cuje7xkqyds7yxwytmiipoaepcfe3dk6y5c7vmn7lpezjka",
+  "thumbnail": "ipfs://bafybeigmgfztm74y3cqhzcn4fm3uffk5oovq6kb6qemh43x44yjj44q23y",
+  "image_url": "ipfs://bafybeifabx6cuje7xkqyds7yxwytmiipoaepcfe3dk6y5c7vmn7lpezjka"
 }

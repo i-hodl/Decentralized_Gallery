@@ -1,8 +1,10 @@
 {
   "name": "ℕ𝕖𝕠𝕟 ℕ𝕚𝕘𝕙𝕥𝕞𝕒𝕣𝕖",
-  "description": "I see it in my dreams.",
-  "image": "ipfs://bafybeiffn2uelriccj745ggyffl7gh7hyyqndcictzcxzyz63utw35emcm",
-  "animation_url": "ipfs://bafybeiffn2uelriccj745ggyffl7gh7hyyqndcictzcxzyz63utw35emcm",
+  "external_url": "https://octocore.eth.limo",
+  "description": "I see it in my dreams.The 'Lost Partition' trait embodies a pivotal shift in the artwork's digital essence. It represents a moment where the original data became fragmented, creating a gateway to a new form of artistic expression. This trait is a testament to the unpredictable nature of digital memory – where lost segments lead to unexpected beauty and complexity. Each 'Lost Partition' piece marks a journey from known to unknown, a metamorphosis that celebrates the serendipity of digital evolution. The 'Partitioned' trait marks a significant moment in the OctoCore Collection – the date when an artwork underwent its digital transformation. 'Partitioned' signifies the division of the old and the emergence of the new, encapsulating a moment of creative rebirth and evolution.",
+  "image": "ipfs://bafybeie2p474jiwm7qf4yosgwaj7k6hrdjxmc7r5phudpf35vjjvikxrfe",
+  "animation_url": "ipfs://bafybeie2p474jiwm7qf4yosgwaj7k6hrdjxmc7r5phudpf35vjjvikxrfe",
+  "thumbnail": "ipfs://bafybeifsjpou7v3sxcf4wyxzzylvqnahucn3qh3gt7r2cau6fmiqsp7p7a",
   "Artist": "ih0dl",
   "attributes": [
     {
@@ -20,6 +22,14 @@
     {
       "trait_type": "media",
       "value": "GIF sRGB IEC61966-2.1"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "A Helicopter Pilot"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "14 August 2024"
     }
   ]
 }

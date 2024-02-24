@@ -2,7 +2,7 @@
   "name": "Heavy is the Bag",
   "created_by": "iH0DL",
   "external_url": "octocore.eth.limo",
-  "description": "that wears the crown.",
+  "description": "that wears the crown. The 'Lost Partition' trait embodies a pivotal shift in the artwork's digital essence. It represents a moment where the original data became fragmented, creating a gateway to a new form of artistic expression. This trait is a testament to the unpredictable nature of digital memory – where lost segments lead to unexpected beauty and complexity. Each 'Lost Partition' piece marks a journey from known to unknown, a metamorphosis that celebrates the serendipity of digital evolution. The 'Partitioned' trait marks a significant moment in the OctoCore Collection – the date when an artwork underwent its digital transformation. 'Partitioned' signifies the division of the old and the emergence of the new, encapsulating a moment of creative rebirth and evolution.",
   "attributes": [
     {
       "trait_type": "Artist",
@@ -25,8 +25,18 @@
     {
       "trait_type": "#",
       "value": "TRASHART"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "Consumed"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "27 Aug 2023"
     }
   ],
   "image": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC",
-  "animation_url": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC"
+  "thumbnail": "ipfs://bafybeibeimhfyt2ywtzs72nkgjfidwbngj3ckxrzusjl236a47fqpcsgou",
+  "animation_url": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC",
+  "image_url": "ipfs://QmeVYostBxaWqaNwvmd3EMR6pfMFegcTiAzgGMX8eKLLKC"
 }

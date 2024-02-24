@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
@@ -7,27 +10,19 @@ body, h1, h2, h3, p, ul, li {
 /* Add a background color and some padding around the whole page */
 body {
   background-color: #121212;  
-  color: #0400fa;
+  color: #ffffff4c;
   font-family: 'Courier New', monospace;  
   padding: 20px;
-}
-
-/* Add some typographic styles */
-h1, h2, h3 {
-  font-weight: lighter;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
 }
 
 /* Style the NFT grid */
 #nft-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
+  white-space: nowrap;
+  margin-top: 20px;
 }
 
 /* Individual NFT styles */
@@ -35,30 +30,28 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 300px;
-  border: 1px solid #0400fa;  
-  border-radius: 5px;
+  border: 2px solid #000000;  
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-color: #252525;
 }
 
 .nft img {
-  object-fit: contain;
-  object-position: center;
-  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  height: 50vh;
   width: 100%;
-  border: 2px solid #0400fa;  
+  border-radius: 15px;
 }
 
 .nft h2 {
-  margin-top: auto;
+  padding: 10px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: x-large;  
-  padding: 5px;
+  border-top: 2px solid #000000;
+  background-color: #000000;
 }
 
 /* Responsiveness */
@@ -71,7 +64,7 @@ h1 {
     align-items: center;
   }
   .nft {
-    width: 100%;
+    width: 90%;
     margin-bottom: 20px;
   }
 }
@@ -154,4 +147,34 @@ img.loading {
 
 img.loaded {
   opacity: 1; /* Make it visible */
+}
+#site-logo {
+  max-width: 400px; /* Adjust based on your preference */
+  margin-top: 0px; /* Space from the title or container's edge */
+  
+}
+
+.loading {
+  /* Placeholder or animation styles */
+  opacity: 0.5; /* Example to make the image appear faded while loading */
+}
+
+.loaded {
+  opacity: 1; /* Fully visible when loaded */
+}
+@keyframes logoEntrance {
+  from {
+    opacity: .0;
+    transform: translateY(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#site-logo {
+  max-width: 400px; /* Adjust based on your preference */
+  margin-top: 0px; /* Space from the title or container's edge */
+  /* Add the animation */
+  animation: logoEntrance 2.5s ease-in-out 0s 1 forwards;
 }

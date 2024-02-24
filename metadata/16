@@ -1,24 +1,24 @@
 {
-  "name": "Insomniac",
+  "name": "Redlight, Greenlight",
   "created_by": "iH0DL",
-  "external_url": "octocore.eth/images/insomniac.gif",
-  "description": "Bro, why don't you ever sleep?",
+  "external_url": "https://octocore.eth.limo",
+  "description": "The insights presented here are born from a fusion of algorithmic precision and the nuanced understanding of a digital artisan, offering a unique perspective on the piece. This AI, an extension of iH0DL's vision, serves as a bridge between the binary world and the spectrum of human emotion encapsulated in the artwork. Titled 'Redlight, Greenlight,' this digital artwork presents a layered symbolism and abstract expression. A hand with a checkered cuff is raised, palm facing forward, holding a translucent pyramid with an eye symbolizing perception. In the background, two faces merge in a swirl of colors, each with a symbolic eye — one with a peace sign, the other with a red traffic light. The composition is a digital surrealism masterpiece, with elements suggesting control over knowledge, the multiplicity of digital identities, and societal commands. The title may allude to the game of control and obedience. The pyramid's eye is reminiscent of the Illuminati, suggesting commentary on power structures. Digital distortions imply the pervasive impact of technology on reality. The piece is a commentary on digital identity, surveillance, and power, evoking deep contemplation on privacy, digital rights, and technology's role in society. The 'Lost Partition' trait embodies a pivotal shift in the artwork's digital essence. It represents a moment where the original data became fragmented, creating a gateway to a new form of artistic expression. This trait is a testament to the unpredictable nature of digital memory – where lost segments lead to unexpected beauty and complexity. Each 'Lost Partition' piece marks a journey from known to unknown, a metamorphosis that celebrates the serendipity of digital evolution. The 'Partitioned' trait marks a significant moment in the OctoCore Collection – the date when an artwork underwent its digital transformation. 'Partitioned' signifies the division of the old and the emergence of the new, encapsulating a moment of creative rebirth and evolution.",
   "attributes": [
     {
       "trait_type": "Artist",
       "value": "iH0DL"
     },
     {
-      "trait_type": "Night",
-      "value": "mares"
+      "trait_type": "Created",
+      "value": "9 Jan 2024"
     },
     {
-      "trait_type": "Media",
-      "value": "Acrylic/Spraypaint on Canvas"
+      "trait_type": "CID",
+      "value": "bafybeigws5bpp3fkq7wh7qtrqxqbjyl4fi7ou6bzykccfucdydarxuw7va"
     },
     {
-      "trait_type": "Digitally",
-      "value": "Trashed"
+      "trait_type": "Color Profile",
+      "value": "Display P3"
     },
     {
       "trait_type": "#",
@@ -29,13 +29,22 @@
       "trait_type": "SUPPLY",
       "value": "1",
       "max_value": "1"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "Insomniac"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "10 Jan 2024"
     }
   ],
   "image_details": {
-    "format": "GIF",
-    "width": 2048,
-    "height": 2048
+    "format": "PNG",
+    "width": 4257,
+    "height": 5562
   },
-  "image": "ipfs://QmQtBmf1JyQNwE9DxHMCS2ThNx2N9MBeLv3terg95ssuUN",
-  "image_url": "ipfs://QmQtBmf1JyQNwE9DxHMCS2ThNx2N9MBeLv3terg95ssuUN"
+  "image": "ipfs://bafybeigws5bpp3fkq7wh7qtrqxqbjyl4fi7ou6bzykccfucdydarxuw7va",
+  "thumbnail": "ipfs://bafybeidlsgenc3nb7ghtzsrrqlpqnlj3lzpekjwthbpsn2ipsuu32iykc4",
+  "image_url": "ipfs://bafybeigws5bpp3fkq7wh7qtrqxqbjyl4fi7ou6bzykccfucdydarxuw7va"
 }

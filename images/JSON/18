@@ -1,7 +1,7 @@
 {
   "name": "Black Hole Sentinel",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "How else did you think vitalik kept the blackhole safe.",
   "attributes": [
     {
@@ -23,5 +23,7 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeih2usbkmoecv6qq55rxeyh5coidemjvdpemlaybfcbjplf3dr3ljm/Untitled_Artwork 78.gif"
+  "image": "ipfs://bafybeia4x7p5seihftg4n442xd7j74cum2sbsatesudlh7n335ttnvlmi4/",
+  "thumbnail": "ipfs://bafybeibrq5rl7rlngfcs7p63qebwkkf2o4nedmhkj24ygqcjartq2albc4/",
+  "animation_url": "ipfs://bafybeia4x7p5seihftg4n442xd7j74cum2sbsatesudlh7n335ttnvlmi4"
 }

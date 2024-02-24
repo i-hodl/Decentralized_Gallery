@@ -1,7 +1,7 @@
 {
   "name": "Writing Blueprints",
   "created_by": "iH0DL",
-  "external_url": "octocore.art",
+  "external_url": "https://octocore.eth.limo",
   "description": "The future is in the hands of the decisions we made yesterday.",
   "attributes": [
     {
@@ -24,6 +24,8 @@
       "value": "TRASHART"
     }
   ],
-  "image": "ipfs://bafybeia2cocta7lnrwcr42nf2prfy4afvquqduxzxg47h6aygkhjdplv24/Writing%20Blueprints.gif",
-  "animation_url": "https://arweave.net/BpIWfxJmAduzPEf7Tl8rZMikhSBdtAdw9P-Lryuer8c"
+  "image": "ipfs://QmXtuyAA7oHfHFNByikCA2YR25cQkVjEKPxwmqL1Th2PPX",
+  "image_url": "ipfs://QmXtuyAA7oHfHFNByikCA2YR25cQkVjEKPxwmqL1Th2PPX",
+  "thumbnail": "ipfs://bafybeibx3skpd3qofkqu2ss6fhjpslouon7qtwnkchhnjbslzoiruul5ju",
+  "animation_url": "ipfs://QmXtuyAA7oHfHFNByikCA2YR25cQkVjEKPxwmqL1Th2PPX"
 }

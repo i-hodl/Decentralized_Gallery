@@ -24,6 +24,17 @@ async function animateTitle() {
   await new Promise(resolve => setTimeout(resolve, 5000));
   title.classList.add('hidden');
 }
+// Function to display the site logo
+function displayLogo() {
+  const logoUrl = './logo.webp'; // Path to your logo
+  const logo = document.createElement('img');
+  logo.src = logoUrl;
+  logo.alt = 'Site Logo';
+  logo.id = 'site-logo'; // Giving an ID for potential CSS styling
+  logo.style.display = 'block'; // Ensure it's displayed
+  logo.style.margin = '0 auto'; // Center the logo, adjust as per your layout needs
+  document.getElementById('title-container').appendChild(logo); // Append logo to a specific container
+}
 
 // Fetch all items in the collection with pagination
 async function fetchAllItemsInCollection(limit = 10) {
@@ -147,6 +158,8 @@ async function fetchConfigurations() {
 
     // Wait for the animation to complete
     await animateTitle();
+    displayLogo(); // Display the logo after title animation
+    await new Promise(resolve => setTimeout(resolve, 500)); // Additional delay if needed
 
     // Add some delay to let the title settle down
     await new Promise(resolve => setTimeout(resolve, 500)); // 1/2 seconds

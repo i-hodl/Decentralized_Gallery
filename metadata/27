@@ -1,7 +1,7 @@
 {
   "name": "The High Road",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "Watching the hunger of egos outweigh the hunger of man, in real-time.",
   "attributes": [
     {
@@ -44,6 +44,7 @@
     "width": 2250,
     "height": 3300
   },
-  "image": "ipfs://Qme5oETGURPFMv4BMv5MbkZWB3TX1ySnTqrpMJx1bu8psU",
-  "image_url": "ipfs://Qme5oETGURPFMv4BMv5MbkZWB3TX1ySnTqrpMJx1bu8psU"
+  "image": "ipfs://bafybeianxa4s3nkigxt3cn5dbkwtecza4wvnhc7bu3gkstpes3l2mhjysy",
+  "thumbnail": "ipfs://bafkreieuoaji34odnq5ikbxufbeuhk7ysuninemj6q7f26jsbesfpuemby",
+  "image_url": "ipfs://bafybeianxa4s3nkigxt3cn5dbkwtecza4wvnhc7bu3gkstpes3l2mhjysy"
 }

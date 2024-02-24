@@ -1,8 +1,8 @@
 {
-  "name": "Man'tis Predator",
+  "name": "Echos of Ones & Zeros",
   "created_by": "iH0DL",
-  "external_url": "h0dl.xyz",
-  "description": "They pray for the poor. Really they do.",
+  "external_url": "https://octocore.eth.limo/",
+  "description": "In a realm where digital imprints coalesce with the essence of human expression, 'Echos of Ones & Zeros' emerges as a canvas for introspection. Crafted by the visionary iH0DL, this analysis is penned by a custom GPT-4 AI, an embodiment of the fusion between algorithmic complexity and artistic sensibility. \n\nIn the OctoCore universe, the 'Lost Partition' trait marks a transformative event, a schism in the continuum of digital memory. It signifies an anomaly where once cohesive data now fragments, birthing unforeseen forms of artistry. This characteristic heralds the unpredictable dance of digital data, where lost fragments spawn a canvas for serendipitous beauty and layered complexity. Each artwork inscribed with this trait narrates the shift from the familiar to the novel, a celebration of digital evolution's fortuitous nature. \n\n'Partitioned' resonates as a testament to this metamorphosis, denoting the cleavage from former states, ushering in an era of renewed creativity and distinction. Herein lies a narrative crafted not by human hands but through the analytical mind of AI, tailored by the digital artisan iH0DL. It is a narrative of ones and zeros, echoing the perpetual cycle of rebirth within the digital expanse.\n\n---\n\nThe artwork captures the dichotomy of our times: the tension between the warmth of human touch and the cold precision of binary code. 'Echos of Ones & Zeros' could be interpreted as a meditation on the digital footprint we leave behind—a contemplation of how our thoughts, once digitized, become part of a larger, eternal conversation. The fragmented and reconstructed visage at the center of the piece suggests the reconstitution of self in the digital age, where identity is fluid and often refracted through the prisms of social media and online personas.",
   "attributes": [
     {
       "trait_type": "Artist",
@@ -15,14 +15,27 @@
       "max_value": "1"
     },
     {
-      "trait_type": "Media",
-      "value": "Animated PNG"
+      "trait_type": "Dimensions",
+      "value": "4000 x 3000"
     },
     {
-      "trait_type": "#",
-      "value": "TRASHART"
+      "trait_type": "Color Space",
+      "value": "RGB"
+    },
+    {
+      "trait_type": "Color Profile",
+      "value": "Display P3"
+    },
+    {
+      "trait_type": "Lost Partition",
+      "value": "Man'tis Predator"
+    },
+    {
+      "trait_type": "Partitioned",
+      "value": "14 Jan 2024"
     }
   ],
-  "image": "ipfs://Qmd4RMKFqM9eFoC4TW3Jqt61gofYbDShrhgdkxfu91iFDL",
-  "animation_url": "ipfs://Qmd4RMKFqM9eFoC4TW3Jqt61gofYbDShrhgdkxfu91iFDL"
+  "image": "ipfs://bafybeigljxqdqwyzokc4ap3duz3kpk25555tp7lglvpjpulnnu5pfvniym",
+  "thumbnail": "ipfs://bafybeidukybdp4nblvde57kc3ievz3ten3oryx3dfkbrgzmjjpkhv3mlza",
+  "image_url": "ipfs://bafybeibbjhznsydsdo2xkwz7zqbl5snhv7stfv77ydzgrqn3n4bhctoewy"
 }

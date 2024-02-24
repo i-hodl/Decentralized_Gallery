@@ -1,7 +1,7 @@
 {
   "name": "Fancy Fucking Art with a Fancy Fucking Frame",
   "created_by": "iH0DL",
-  "external_url": "https://h0dl.xyz",
+  "external_url": "https://octocore.eth.limo",
   "description": "I'm so fancy, you already know.",
   "attributes": [
     {
@@ -44,6 +44,7 @@
     "width": 2250,
     "height": 3300
   },
-  "image": "ipfs://QmVu4n7eXxFNCugSrH6WyMcMjGkKpyRzRPhrQocjrUc3Bg",
-  "image_url": "ipfs://QmVu4n7eXxFNCugSrH6WyMcMjGkKpyRzRPhrQocjrUc3Bg"
+  "image": "ipfs://bafybeiatr6mzg7nrh5tfze6ncisuz2tvqtws2jvcjybngc4llp46bhaqua",
+  "thumbnail": "ipfs://bafybeifrw5haxgqkdjtklczy2tgqmxbq2hscr34akumtldactjrctloh4y",
+  "image_url": "ipfs://bafybeiatr6mzg7nrh5tfze6ncisuz2tvqtws2jvcjybngc4llp46bhaqua"
 }
